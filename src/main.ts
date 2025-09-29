@@ -28,7 +28,7 @@ export function renderApp(appElement: HTMLElement | null): boolean {
               <a href="#music" class="btn btn-primary" aria-label="Listen to our music catalog">
                 🎵 Listen now
               </a>
-              <a href="https://www.youtube.com/@flantastic4" class="btn btn-secondary" target="_blank" rel="noopener noreferrer" aria-label="Watch our videos on YouTube">
+              <a href="https://www.youtube.com/watch?v=5Auv9Kk6MKU&list=PL_msphvLzyPkI-ONVbxV6dHWWFQ-6r8W1" class="btn btn-secondary" target="_blank" rel="noopener noreferrer" aria-label="Listen now on YouTube">
                 📺 Watch videos
               </a>
             </div>
@@ -120,7 +120,7 @@ export function renderApp(appElement: HTMLElement | null): boolean {
           <h3>Latest Videos</h3>
           <div class="videos-content">
             <p>Check out our latest music videos and behind-the-scenes content!</p>
-            <a href="https://www.youtube.com/@flantastic4/videos" class="btn btn-primary" target="_blank" rel="noopener noreferrer" aria-label="View all videos on our YouTube playlist">
+            <a href="https://www.youtube.com/@TheFlantastic4/videos" class="btn btn-primary" target="_blank" rel="noopener noreferrer" aria-label="View all videos on our YouTube playlist">
               View YouTube Playlist
             </a>
           </div>
@@ -164,9 +164,8 @@ export function renderApp(appElement: HTMLElement | null): boolean {
             <a href="#about" aria-label="About us">About</a>
           </div>
           <div class="footer-socials">
-            <a href="https://open.spotify.com/artist/flantastic4" target="_blank" rel="noopener noreferrer" aria-label="Follow us on Spotify">Spotify</a>
-            <a href="https://www.youtube.com/@flantastic4" target="_blank" rel="noopener noreferrer" aria-label="Subscribe to our YouTube channel">YouTube</a>
-            <a href="https://www.instagram.com/flantastic4" target="_blank" rel="noopener noreferrer" aria-label="Follow us on Instagram">Instagram</a>
+            <a href="https://www.youtube.com/@TheFlantastic4" target="_blank" rel="noopener noreferrer" aria-label="Subscribe to our YouTube channel">YouTube</a>
+            <a href="https://www.instagram.com/theflantastic4" target="_blank" rel="noopener noreferrer" aria-label="Follow us on Instagram">Instagram</a>
           </div>
         </div>
         <p>&copy; 2024 Flantastic 4. All rights reserved.</p>

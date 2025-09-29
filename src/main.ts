@@ -71,7 +71,7 @@ export function renderApp(appElement: HTMLElement | null): boolean {
           <div class="music-grid">
             <div class="music-card">
               <div class="music-cover" aria-label="I Fly album cover with neon gradient design">
-                <div class="cover-art">🎵</div>
+                <img src="/cover-art/i-fly.svg" alt="I Fly album cover with neon gradient design and floating elements" class="cover-art-image" />
               </div>
               <h4>I Fly</h4>
               <p>Hip Hop / AI-Enhanced</p>
@@ -82,7 +82,7 @@ export function renderApp(appElement: HTMLElement | null): boolean {
             </div>
             <div class="music-card">
               <div class="music-cover" aria-label="Neon Dreams album cover with cyberpunk aesthetic">
-                <div class="cover-art">🌟</div>
+                <img src="/cover-art/neon-dreams.svg" alt="Neon Dreams album cover with cyberpunk aesthetic and glowing orbs" class="cover-art-image" />
               </div>
               <h4>Neon Dreams</h4>
               <p>EDM / Lofi Fusion</p>
@@ -93,7 +93,7 @@ export function renderApp(appElement: HTMLElement | null): boolean {
             </div>
             <div class="music-card">
               <div class="music-cover" aria-label="Family Vibes album cover with warm colors">
-                <div class="cover-art">💝</div>
+                <img src="/cover-art/family-vibes.svg" alt="Family Vibes album cover with heart symbols and warm gradient colors" class="cover-art-image" />
               </div>
               <h4>Family Vibes</h4>
               <p>R&B / Pop</p>
@@ -104,7 +104,7 @@ export function renderApp(appElement: HTMLElement | null): boolean {
             </div>
             <div class="music-card">
               <div class="music-cover" aria-label="Algorithm Love album cover with tech-inspired design">
-                <div class="cover-art">🤖</div>
+                <img src="/cover-art/algorithm-love.svg" alt="Algorithm Love album cover with circuit patterns and AI robot design" class="cover-art-image" />
               </div>
               <h4>Algorithm Love</h4>
               <p>AI-Pop / Electronic</p>

@@ -1,0 +1,43 @@
+<svg width="300" height="200" viewBox="0 0 300 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="algo-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#00BBF9"/>
+      <stop offset="50%" style="stop-color:#9B5DE5"/>
+      <stop offset="100%" style="stop-color:#F15BB5"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge> 
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  
+  <rect width="300" height="200" fill="#0a0a0b"/>
+  
+  <!-- Binary code pattern -->
+  <text x="20" y="30" fill="#00BBF9" font-family="Courier, monospace" font-size="8" opacity="0.4">01010100</text>
+  <text x="100" y="40" fill="#9B5DE5" font-family="Courier, monospace" font-size="8" opacity="0.3">11010110</text>
+  <text x="200" y="35" fill="#F15BB5" font-family="Courier, monospace" font-size="8" opacity="0.4">10101001</text>
+  <text x="50" y="180" fill="#00BBF9" font-family="Courier, monospace" font-size="8" opacity="0.3">11100100</text>
+  <text x="180" y="185" fill="#9B5DE5" font-family="Courier, monospace" font-size="8" opacity="0.4">01011010</text>
+  
+  <!-- Central AI/robot symbol -->
+  <circle cx="150" cy="80" r="25" fill="none" stroke="#00BBF9" stroke-width="2" filter="url(#glow)"/>
+  <circle cx="140" cy="75" r="3" fill="#F15BB5" filter="url(#glow)"/>
+  <circle cx="160" cy="75" r="3" fill="#F15BB5" filter="url(#glow)"/>
+  <rect x="145" y="82" width="10" height="6" fill="#9B5DE5" filter="url(#glow)"/>
+  
+  <!-- Circuit lines -->
+  <path d="M 120 60 L 180 60 L 180 100 L 120 100 Z" stroke="url(#algo-gradient)" stroke-width="1" fill="none" opacity="0.6"/>
+  <circle cx="120" cy="60" r="2" fill="#00BBF9" filter="url(#glow)"/>
+  <circle cx="180" cy="60" r="2" fill="#F15BB5" filter="url(#glow)"/>
+  <circle cx="180" cy="100" r="2" fill="#9B5DE5" filter="url(#glow)"/>
+  <circle cx="120" cy="100" r="2" fill="#00BBF9" filter="url(#glow)"/>
+  
+  <!-- Central title -->
+  <text x="150" y="130" text-anchor="middle" fill="white" font-family="Montserrat, sans-serif" font-size="20" font-weight="bold" filter="url(#glow)">ALGORITHM</text>
+  <text x="150" y="150" text-anchor="middle" fill="#00BBF9" font-family="Montserrat, sans-serif" font-size="24" font-weight="bold" filter="url(#glow)">LOVE</text>
+  <text x="150" y="170" text-anchor="middle" fill="#9B5DE5" font-family="Montserrat, sans-serif" font-size="12" font-weight="600">AI-POP / ELECTRONIC</text>
+</svg>
